@@ -48,6 +48,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -69,21 +70,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>NORTHWNDDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="NORTHWNDDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>NORTHWNDDataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="NORTHWNDDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>NORTHWNDDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="NORTHWNDDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>NORTHWNDDataSet3.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,39 +95,6 @@
     </None>
     <None Include="NORTHWNDDataSet.xss">
       <DependentUpon>NORTHWNDDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="NORTHWNDDataSet1.xsc">
-      <DependentUpon>NORTHWNDDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="NORTHWNDDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>NORTHWNDDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="NORTHWNDDataSet1.xss">
-      <DependentUpon>NORTHWNDDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="NORTHWNDDataSet2.xsc">
-      <DependentUpon>NORTHWNDDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="NORTHWNDDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>NORTHWNDDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="NORTHWNDDataSet2.xss">
-      <DependentUpon>NORTHWNDDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="NORTHWNDDataSet3.xsc">
-      <DependentUpon>NORTHWNDDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="NORTHWNDDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>NORTHWNDDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="NORTHWNDDataSet3.xss">
-      <DependentUpon>NORTHWNDDataSet3.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -9,3 +9,14 @@ C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\bin\Debug\Th
 C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\bin\Debug\The_Business_problem.pdb
 C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.exe
 C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.pdb
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\bin\Debug\The_Business_problem.exe.config
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.exe
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.pdb
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.csprojResolveAssemblyReference.cache
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.Form1.resources
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.Properties.Resources.resources
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.csproj.GenerateResource.Cache
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\bin\Debug\NORTHWND.MDF
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\bin\Debug\NORTHWND_log.ldf
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\bin\Debug\The_Business_problem.exe
+C:\Users\Krzysztof\Documents\GitHub\The_Business_problem\The_Business_problem\bin\Debug\The_Business_problem.pdb

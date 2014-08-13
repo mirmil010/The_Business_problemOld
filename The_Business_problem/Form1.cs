@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+
 
 
 namespace The_Business_problem
@@ -28,17 +30,20 @@ namespace The_Business_problem
             string connectionString = null;
             SqlConnection cnn;
           //connectionString = "Data Source=(LocalDB)\v11.0;AttachDbFilename="+Application.StartupPath + "NORTHWND.MDF;Integrated Security=True";
-            string executable = System.Reflection.Assembly.GetExecutingAssembly().Location;
-     
-           connectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=C:\\Users\\krisw\\Desktop\\vs\\The_Business_problem\\The_Business_problem\\NORTHWND.MDF;Integrated Security=True";
-           
-            cnn = new SqlConnection(connectionString);
+            connectionString = ConfigurationManager.ConnectionStrings["The_Business_problem.Properties.Settings.NORTHWNDConnectionString"].ConnectionString;
+            
 
+            //string executable = System.Reflection.Assembly.GetExecutingAssembly().Location;
+     
+           //connectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=C:\\Users\\krisw\\Desktop\\vs\\The_Business_problem\\The_Business_problem\\NORTHWND.MDF;Integrated Security=True";
+
+            cnn = new SqlConnection(connectionString);
+           // cnn.Open();
             try
             {
                 cnn.Open();
-               // MessageBox.Show(lbSupervisor.ValueMember);
-                 //cnn.Close();
+                // MessageBox.Show(lbSupervisor.ValueMember);
+                //cnn.Close();
             }
             catch (Exception ex)
             { MessageBox.Show("Failed!"); }
@@ -61,7 +66,7 @@ namespace The_Business_problem
             cmd.Parameters.AddWithValue("@Extension", tbExtension.Text);
             cmd.Parameters.AddWithValue("@Notes", tbNotes.Text);
             cmd.Parameters.AddWithValue("@ReportsTo", Convert.ToInt64(lbSupervisor.SelectedValue));
-           // cmd.ExecuteNonQuery();
+            //cmd.ExecuteNonQuery();
             try
             {
                 cmd.ExecuteNonQuery();
@@ -74,8 +79,9 @@ namespace The_Business_problem
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'nORTHWNDDataSet3.Employees' table. You can move, or remove it, as needed.
-            this.employeesTableAdapter.Fill(this.nORTHWNDDataSet3.Employees);
+            // TODO: This line of code loads data into the 'nORTHWNDDataSet.Employees' table. You can move, or remove it, as needed.
+            this.employeesTableAdapter.Fill(this.nORTHWNDDataSet.Employees);
+         
           
 
         }

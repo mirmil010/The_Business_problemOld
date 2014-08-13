@@ -58,12 +58,12 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.nORTHWNDDataSet3 = new The_Business_problem.NORTHWNDDataSet3();
-            this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.employeesTableAdapter = new The_Business_problem.NORTHWNDDataSet3TableAdapters.EmployeesTableAdapter();
             this.dtpDOB = new System.Windows.Forms.DateTimePicker();
             this.dtpHire = new System.Windows.Forms.DateTimePicker();
-            ((System.ComponentModel.ISupportInitialize)(this.nORTHWNDDataSet3)).BeginInit();
+            this.nORTHWNDDataSet = new The_Business_problem.NORTHWNDDataSet();
+            this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.employeesTableAdapter = new The_Business_problem.NORTHWNDDataSetTableAdapters.EmployeesTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.nORTHWNDDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -308,20 +308,6 @@
             this.label15.TabIndex = 30;
             this.label15.Text = "Supervisor";
             // 
-            // nORTHWNDDataSet3
-            // 
-            this.nORTHWNDDataSet3.DataSetName = "NORTHWNDDataSet3";
-            this.nORTHWNDDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // employeesBindingSource
-            // 
-            this.employeesBindingSource.DataMember = "Employees";
-            this.employeesBindingSource.DataSource = this.nORTHWNDDataSet3;
-            // 
-            // employeesTableAdapter
-            // 
-            this.employeesTableAdapter.ClearBeforeFill = true;
-            // 
             // dtpDOB
             // 
             this.dtpDOB.Location = new System.Drawing.Point(12, 122);
@@ -335,6 +321,20 @@
             this.dtpHire.Name = "dtpHire";
             this.dtpHire.Size = new System.Drawing.Size(200, 20);
             this.dtpHire.TabIndex = 34;
+            // 
+            // nORTHWNDDataSet
+            // 
+            this.nORTHWNDDataSet.DataSetName = "NORTHWNDDataSet";
+            this.nORTHWNDDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // employeesBindingSource
+            // 
+            this.employeesBindingSource.DataMember = "Employees";
+            this.employeesBindingSource.DataSource = this.nORTHWNDDataSet;
+            // 
+            // employeesTableAdapter
+            // 
+            this.employeesTableAdapter.ClearBeforeFill = true;
             // 
             // Form1
             // 
@@ -375,7 +375,7 @@
             this.Name = "Form1";
             this.Text = "Add New Employee";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.nORTHWNDDataSet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nORTHWNDDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -413,11 +413,12 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private NORTHWNDDataSet3 nORTHWNDDataSet3;
-        private System.Windows.Forms.BindingSource employeesBindingSource;
-        private NORTHWNDDataSet3TableAdapters.EmployeesTableAdapter employeesTableAdapter;
+      
         private System.Windows.Forms.DateTimePicker dtpDOB;
         private System.Windows.Forms.DateTimePicker dtpHire;
+        private NORTHWNDDataSet nORTHWNDDataSet;
+        private System.Windows.Forms.BindingSource employeesBindingSource;
+        private NORTHWNDDataSetTableAdapters.EmployeesTableAdapter employeesTableAdapter;
 
     }
 }
