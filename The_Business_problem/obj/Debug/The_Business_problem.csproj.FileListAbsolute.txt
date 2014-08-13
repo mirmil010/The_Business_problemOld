@@ -1,0 +1,11 @@
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\bin\Debug\The_Business_problem.exe.config
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.csprojResolveAssemblyReference.cache
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.Form1.resources
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.Properties.Resources.resources
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.csproj.GenerateResource.Cache
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\bin\Debug\NORTHWND.MDF
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\bin\Debug\NORTHWND_log.ldf
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\bin\Debug\The_Business_problem.exe
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\bin\Debug\The_Business_problem.pdb
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.exe
+C:\Users\krisw\Desktop\vs\The_Business_problem\The_Business_problem\obj\Debug\The_Business_problem.pdb
